@@ -12,11 +12,12 @@
             "webRoot": "${workspaceFolder}"
         },
         {
-            "type": "chrome",
+            "type": "pwa-chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}"
+            "url": "http://localhost:5173",
+            "webRoot": "${workspaceFolder}/library-react",
+            "userDataDir": "${workspaceFolder}/.vscode/chrome"
         }
     ]
 }
